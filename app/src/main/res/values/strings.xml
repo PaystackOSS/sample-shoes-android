@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="shoe_title">
+        Special Edition Kix
+    </string>
+    <string name="shoe_details">
+        These are super comfortable Black Canvas shoes with genuine rubber soles.
+        Hand-crafted by using the finest canvas (very similar to the fabric used by artists)
+        which is treated to make them even more resistant.
+
+        Sale price is KES 4,500.
+    </string>
+    <string name="pay_button">
+        Checkout
+    </string>
+    <string name="shoe_price">
+        4,500.oo
+    </string>
+</resources>

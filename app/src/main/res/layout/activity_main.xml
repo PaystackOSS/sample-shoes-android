@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/shoe_title"
+        android:src="@drawable/pexels_ray_piedra" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_weight="1"
+        android:text="@string/shoe_title"
+        android:textColor="@color/purple_200"
+        android:layout_margin="8pt"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8pt"
+        android:text="@string/shoe_details"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3BB75E"
+        android:text="@string/pay_button"
+        android:textColor="@color/white"/>
+</LinearLayout>
